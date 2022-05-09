@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+}
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#mainDiv .secondDiv {
+    width: auto;
+    margin-top: 10%;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 20px;
+    /* box-shadow: 0 0 15px 0px white; */
+    box-shadow: inset 0 0 30px 5px red;
+}
+.secondDiv .heading {
+    margin: 20px 0 20px 0;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: rgb(126, 73, 139);
+    text-shadow: 2px 2px 3px black;
+}
+.secondDiv #quotes {
+    padding: 20px;
+}
+.secondDiv #author {
+    padding: 10px;
+    padding-top: 0;
+}
+.secondDiv #btn {
+    padding: 7px;
+    margin: 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;    
+    font-size: 15px;
+    font-weight: bold;
+    background-color: green;
+    color: yellow;
+    transition: 0.2s ease-in-out;
+}
+.secondDiv #twitBtn {
+    padding: 7px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    outline: 0;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: blue;
+    color: yellow;
+    transition: 0.2s ease-in-out;
+}
+.secondDiv #btn:hover {
+    background-color: tomato;
+    border: 2px solid green;
+    color: green;
+}
+.secondDiv #twitBtn:hover {
+    background-color: tomato;
+    border: 2px solid blue;
+    color: blue;
+}
